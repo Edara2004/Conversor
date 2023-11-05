@@ -80,7 +80,7 @@ def Liquid_Conversion(ventana):
                         else conversion_mililiter()
                         if box_mililiters.get()
                         else conversion_ounces())
-    button.place(x=20, y=350)
+    button.place(x=20, y= 350)
 
     button_clear_all = ttk.Button(frame, text="Borrar", command=lambda: clear_box(box_liters, box_gal, box_ounces, box_mililiters))  # noqa
     button_clear_all.place(x=100, y=350)
