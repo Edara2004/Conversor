@@ -105,7 +105,7 @@ def create_pesos_widget(ventana):
                                  else convertir_miligram())
 
     boton_borrar= ttk.Button(frame, text="Borrar", command=lambda:clear_box(caja_peso_kilo, caja_peso_libras, caja_peso_gramos, caja_peso_onzas, caja_peso_mil)) # noqa
-    boton_borrar.place(x=100,  y=350)
+    boton_borrar.place(x=100, y=350)
 
     boton_convertir.place(x=20, y=350)
 
