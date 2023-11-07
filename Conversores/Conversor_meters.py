@@ -39,7 +39,7 @@ def conversor_meters(ventana):
     box_feet = ttk.Entry(frame)
     box_feet.place(x=170, y=100, width=75)
 
-    Widget_inch = ttk.Label(frame, text="Pulgadas")
+    Widget_inch = ttk.Label(frame, text="Pulgadas:")
     Widget_inch.place(x=20, y=125)
     box_inch = ttk.Entry(frame)
     box_inch.place(x=170, y=125, width=75)

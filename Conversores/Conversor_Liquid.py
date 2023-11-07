@@ -14,27 +14,27 @@ def Liquid_Conversion(ventana):
 
     frame = Frame(ventana) # noqa
 
-    widget_liters = ttk.Label(frame, text="Litros")
+    widget_liters = ttk.Label(frame, text="Litros:")
     widget_liters.place(x=20, y=25)
     box_liters = ttk.Entry(frame)
     box_liters.place(x=170, y=25, width=60)
 
-    widget_gal = ttk.Label(frame, text="Galones")
+    widget_gal = ttk.Label(frame, text="Galones:")
     widget_gal.place(x=20, y=50)
     box_gal = ttk.Entry(frame)
     box_gal.place(x=170, y=50, width=60)
 
-    widget_mililiters = ttk.Label(frame, text="Mililitros")
+    widget_mililiters = ttk.Label(frame, text="Mililitros:")
     widget_mililiters.place(x=20, y=75)
     box_mililiters = ttk.Entry(frame)
     box_mililiters.place(x=170, y=75, width=60)
 
-    widget_ounces = ttk.Label(frame, text="Onzas")
+    widget_ounces = ttk.Label(frame, text="Onzas:")
     widget_ounces.place(x=20, y=100)
     box_ounces = ttk.Entry(frame)
     box_ounces.place(x=170, y=100, width=60)
 
-    button_delete = ttk.Button(frame, text="Borrar")
+    button_delete = ttk.Button(frame, text="Borrar:")
     button_delete.place(x=100, y=350)
 
     def conversion_liters():

@@ -1,10 +1,10 @@
 import tkinter as tk
 from tkinter import * # noqa
 from tkinter import ttk # noqa
-from Conversor_Cal import create_pesos_widget
-from Conversor_temperatura import create_temperaturas_widget
-from Conversor_Liquid import Liquid_Conversion
-from Conversor_meters import conversor_meters
+from Conversores.Conversor_Cal import create_pesos_widget
+from Conversores.Conversor_temperatura import create_temperaturas_widget
+from Conversores.Conversor_Liquid import Liquid_Conversion
+from Conversores.Conversor_meters import conversor_meters
 
 root = tk.Tk() # noqa
 root.title("Conversor")
@@ -68,5 +68,11 @@ def show_meters():
     frame_temperaturas.pack_forget()
 
 
-root.config(menu=create_menu(root, mostrar_pesos, mostrar_temperaturas, show_liquid, show_meters)) # noqa
+root.config(menu=create_menu(root,
+                             mostrar_pesos,
+                             mostrar_temperaturas,
+                             show_liquid,
+                             show_meters))
+
+
 root.mainloop()
