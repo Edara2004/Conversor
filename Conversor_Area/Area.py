@@ -261,14 +261,14 @@ def Area_conversion(ventana):
         square_yard = float(box_square_yard.get())
         square_meter = square_yard * 0.83612
         square_hectometer = square_yard * 0.00011959902
-        square_decimeter = square_yard * 9.290304
-        square_centimeter = square_yard * 929.0304
+        square_decimeter = square_yard / 0.01196
+        square_centimeter = square_yard / 0.0001196
         square_kilometer = square_yard * 0.00000083612736
-        square_milimeter = square_yard * 83612.7
-        square_decameter = square_yard * 0.83612736
+        square_milimeter = square_yard * 83612.70
+        square_decameter = square_yard / 119.60
         square_feet = square_yard * 9
         square_inch = square_yard * 1296
-        square_mile = square_yard /  0.25900
+        square_mile = square_yard / (((1 * 259000) / 1.196) / 0.6324)
         box_square_meter.insert(0, round(square_meter, 6))
         box_square_hectometer.insert(0, round(square_hectometer, 4))
         box_square_decameter.insert(0, round(square_decameter, 6))
@@ -284,12 +284,12 @@ def Area_conversion(ventana):
         square_feet = float(box_square_feet.get())
         square_meter = square_feet * 0.0929
         square_hectometer = square_feet / 11959
-        square_decimeter = square_feet * 100
+        square_decimeter = square_feet  / 0.10764
         square_centimeter = square_feet / 0.0010764
         square_kilometer = square_feet / 10764000
         square_milimeter = square_feet / 0.000010764
         square_yard = square_feet / 9
-        square_decameter = square_feet / 9.29
+        square_decameter = square_feet / 1076.4
         square_inch = square_feet * 144
         square_mile = square_feet / 2787840
         box_square_meter.insert(0, round(square_meter, 8))
@@ -305,16 +305,16 @@ def Area_conversion(ventana):
 
     def conversion_inch():
         square_inch = float(box_square_inch.get())
-        square_meter = square_inch * 0.00064516
-        square_hectometer = square_inch * 0.00000064516
-        square_decimeter = square_inch * 6.4516
-        square_centimeter = square_inch * 645.16
-        square_kilometer = square_inch / 9290000000
-        square_milimeter = square_inch * 645.16
+        square_meter = square_inch / 1550.0003
+        square_hectometer = square_inch * 0.000000064516
+        square_decimeter = square_inch / 15.500003
+        square_centimeter = square_inch / 0.155000030
+        square_kilometer = square_inch / 1550003000
+        square_milimeter = square_inch / 0.0015500003
         square_yard = square_inch / 9.290304
         square_feet = square_inch / 144
-        square_decameter = square_inch / 645.16
-        square_mile = square_inch / (63360 * 63360)
+        square_decameter = square_inch / 155000.03
+        square_mile = square_inch / 401448900.600
         box_square_meter.insert(0, round(square_meter, 8))
         box_square_hectometer.insert(0, round(square_hectometer, 8))
         box_square_decameter.insert(0, round(square_decameter, 8))
@@ -328,16 +328,16 @@ def Area_conversion(ventana):
 
     def conversion_mile():
         square_mile = float(box_square_mile.get())
-        square_meter = square_mile * 2590000
+        square_meter = square_mile * 259000
         square_hectometer = square_mile * 25.9
         square_decimeter = square_mile * 27878400000000
         square_centimeter = square_mile * 2.589988110336
         square_kilometer = square_mile * 1.609344
         square_milimeter = square_mile * 258999846000000
-        square_yard = square_mile / 0.00000000000003228
+        square_yard = square_mile / 0.000002598
         square_feet = square_mile * 27878400
         square_inch = square_mile * (63360 * 63360)
-        square_decameter = square_mile / 0.0000003861
+        square_decameter = square_mile * 2590
         box_square_meter.insert(0, round(square_meter, 8))
         box_square_hectometer.insert(0, round(square_hectometer, 8))
         box_square_decameter.insert(0, round(square_decameter, 8))
