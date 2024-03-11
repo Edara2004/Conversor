@@ -9,7 +9,8 @@ Trabaja bajo la tecnologia de python en conjunto de la libreria Tkinter. Tkinter
 ## Instalación
 
 1. Instalar python ver 3.11.15
-2. Instalar Tkinter > pip install tkinter
+2. Instalar Tkinter
+> pip install tkinter
 
 # Ejecución
 > python main.py
