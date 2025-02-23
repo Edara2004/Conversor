@@ -22,3 +22,5 @@ Trabaja bajo la tecnologia de python en conjunto de la libreria Tkinter. Tkinter
 4. Distancia
 5. Calculadora
 6. Temperatura
+
+Aun falta mejorar algunas cosas, pero deberia poder ayudarte los calculos matematicos simplificados.
